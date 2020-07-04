@@ -1,2 +1,2 @@
 # y.takashima
-git練習中。
+a beginner

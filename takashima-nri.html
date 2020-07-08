@@ -8,70 +8,74 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v7.0"
+        nonce="I0ILxyZm"></script>
     <!--ページヘッダ－-->
     <!--NRIのロゴ・カテゴリ別のナビ（JQueryのツールチップ使う？？）-->
     <header id="pagehead">
-        <div class="headline">
+        <div class="globalnavi">
             <div class="logo">
                 <img src="images/NRIlogo.jpg" alt="" width="70" height="35">
             </div>
-            <div class="globalnavi">
-                <div class="iconlist">
-                    <a class="humberger">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </a>
-                    <a class="icon">
-                        <img src="https://www.nri.com/-/media/Corporate/jp/Images/common/header/earth.svg" alt="">
-                    </a>
-                    <a class="icon">
-                        <img src="https://www.nri.com/-/media/Corporate/jp/Images/common/header/glass.svg" alt="">
-                    </a>
-                </div>
-                <div class="pagelist">
-                    <a>採用情報</a>
-                    <a>株主･投資家情報(IR)</a>
-                    <a>企業情報</a>
-                    <a>ニュース</a>
-                    <a>サステナビリティ</a>
-                    <a>ソリューション･サービス</a>
-                    <a>ナレッジ･インサイト</a>
-                </div>
+            <div class="pagelist">
+                <ul>
+                    <li><a>採用情報</a></li>
+                    <li><a>株主･投資家情報(IR)</a></li>
+                    <li><a>企業情報</a></li>
+                    <li><a>ニュース</a></li>
+                    <li><a>サステナビリティ</a></li>
+                    <li><a>ソリューション･サービス</a></li>
+                    <li><a>ナレッジ･インサイト</a></li>
+                </ul>
             </div>
         </div>
-        <div class="topicpath">
-            <p>NRI トップ 企業情報 NRIの強み：NRIのデジタルビジネス戦略</p>
+        <div class="iconlist">
+            <a class="humberger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+            <a class="icon">
+                <img src="https://www.nri.com/-/media/Corporate/jp/Images/common/header/earth.svg" alt="">
+            </a>
+            <a class="icon">
+                <img src="https://www.nri.com/-/media/Corporate/jp/Images/common/header/glass.svg" alt="">
+            </a>
         </div>
     </header>
-    <!--ページヘッダー-->
+    <!--ここまでページヘッダーfixする-->
+    <!--パンくずナビ-->
+    <p class="topicpath">NRI トップ <img src="images/arrowright.png" alt=""> 企業情報 &<img src="images/arrowright.png" alt="">
+        NRIの強み：NRIのデジタルビジネス戦略</p>
     <article id="pagemain">
-        <div id="articletitle">
-            <!--タイトルは画面幅フルサイズ-->
-            <div class="titletext">
-                <p>NRIの強み</p>
-                <h1>NRIのデジタルビジネス戦略</h1>
-            </div>
-            <!--ここまでは画面幅フル-->
-            <!--ここから下は画面幅820px-->
-            <!---シェアボタン各種-->
-            <!--導入部分-->
+        <!--メインタイトルは画面幅フルサイズ-->
+        <div class="titletext">
+            <p>NRIの強み</p>
+            <h1>NRIのデジタルビジネス戦略</h1>
         </div>
-        <div id="articlemain">
-            <section　class="articletext">
+        <!--ここまでは画面幅フル-->
+        <!--ここから下は画面幅820px-->
+        <section class="snsbutton">
+            <!--横に配置-->
+            <div>share</div>
+            <img src="images/icon-facebook.svg" alt="" width="25" ,height="25">
+            <img src="images/icon-twitter.svg" alt="" width="25" ,height="25">
+            <img src="images/icon-linkedin.svg" alt="" width="25" ,height="25">
+        </section>
+        <div id="articlemain">            <!--画像は背景で組み込む-->
+            <section　class="text">
                 <h2>NRIのデジタルビジネス戦略</h2>
                 <p>NRI では、企業の DX に向けた取り組みについて、既存ビジネスの業務プロセス変革に寄与する DXを<br>
                     「DX1.0」、デジタルで新しいビジネスモデルそのものを生み出すDXを「DX2.0」と定義しています。</p>
                 <p>DXを実現するためには、業務プロセス変革やビジネスモデル創造、そして、それらを実現するITを同時並行で、共に議論しながら、かつ、スピーディーに実装できる戦略パートナーが必要です。NRIは、コンサルティングとITソリューションの人材と機能を併せ持ち、お客さまと併走し、お客さまと仮説検証を繰り返しながらビジネスを創出する「コンソリューション」の提供を強みとして、DXの実現を推進します。
                 </p>
             </section>
-            <!--歴史-->
             <section class="articleimage">
                 <figure>
                     <img src="images/story06_img_01.jpg" width="800" height="600" alt="">
                 </figure>
-                <p>拡大ボタン</p>
-                <p>デジタルが拓く近未来（NRIのDX）（4.06 MB）</p>
+                <button>デジタルが拓く近未来（NRIのDX）（4.06 MB）</button>
             </section>
             <div class="prevandnext">
                 <a>ビジネスモデルの特徴</a>

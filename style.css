@@ -1,0 +1,83 @@
+/*本文書式*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+/*ページ幅・全体の設定*/
+body {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.875;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#articlemain{
+    width:800px;
+    margin:0 auto;
+}
+
+
+/*ページヘッダー*/
+
+#pagehead {
+    display: flex;
+    height: 60px;
+    width: auto;
+    justify-content: space-between;
+}
+
+#pagehead .globalnavi {
+    display: flex;
+    width: 100%;
+}
+
+#pagehead .globalnavi .logo{ 
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#pagehead .globalnavi .pagelist{
+    width: 100%;
+}
+
+#pagehead .iconlist{
+    width: 180px;
+    display: flex;
+    margin-left:20px;
+}
+
+#pagehead .globalnavi .pagelist ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pagehead .globalnavi .pagelist ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left:20px;
+}
+
+#pagehead .globalnavi .pagelist ul li a{
+    color:#000000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/*右上アイコン*/
+
+#pagehead .iconlist a {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 60px;
+    margin: 0;
+    text-align: center;
+    text-decoration:none; 
+}
+
+/*topicpath*/
+
+/*タイトル画像*/
+
+/*タイトル*/
+
+/**/

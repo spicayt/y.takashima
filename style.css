@@ -75,9 +75,73 @@ body {
 }
 
 /*topicpath*/
+.topicpath{
+    font-size:12px;
+    margin:0 0 20px 125px;
+}
 
-/*タイトル画像*/
+.topicpath a{
+    text-decoration: none;
+    color:#999999;
+}
+
+.topicpath a ::after{
+    content:"疑似要素";
+}
 
 /*タイトル*/
+.titletext{
+    height:252px;
+    width:100%;
+    background-image: url(images/topimage.jpg);
+    background-position: center;
+    color:#FFFFFF;
+    background-size:cover;
+    position: relative;
+}
 
-/**/
+.titletext p,
+.titletext h1{
+    position:absolute;
+    left:260px;
+    margin:0;
+}
+
+.titletext p{
+    font-size:21px;
+    top:40px;
+}
+
+.titletext h1{
+    font-size:28px;
+    top:80px;
+}
+
+/*メインページ*/
+#articlemain .snsbutton{
+   text-align:right;
+   margin-top:35px;
+}
+
+#articlemain .snsbutton img{
+    margin-left:20px;
+}
+
+#articlemain .snsbutton img :first-child ::before{
+    content: "Share";
+}
+
+#pagemain .articletext h2{
+    background-image: url(images/midashi.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left:35px;
+}
+
+#pagemain .articleimage{
+    margin:20px 0 20px 0;
+}
+
+#pagemain .articleimage figure{
+    margin:0;
+}

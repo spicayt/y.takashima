@@ -167,3 +167,15 @@ body {
 #articlrmain .articleimage .btn a :after{
     content:url("images/PDF_24.png")            /*疑似要素*/
 }
+
+#articlemain .localnavi .prevandnext{
+    display:flex;
+    justify-content:space-between;
+}
+
+#articlemain .localnavi .prevandnext a{         /*疑似要素*/
+    font-size:16px;
+    color:#0C419A;
+    text-decoration:none;
+    margin:35px 0 45px 0;
+}   

@@ -127,8 +127,11 @@ body {
     margin-left:20px;
 }
 
-#articlemain .snsbutton img :first-child :before{       /*疑似要素*/
-    content: "Share";   
+#articlemain .snsbutton:before{       /*疑似要素*/
+    content: "Share";
+    display:inline-block;
+    font-size:14px;
+    vertical-align:6px;
 }
 
 #articlemain .articletext h2{
@@ -151,21 +154,33 @@ body {
     margin:45px 0 45px 0; 
 }
 
-#articlemain .articleimage .btn a :before{          /*疑似要素*/
-    content:">"
+#articlemain .articleimage .btn a:before{        /*疑似要素*/
+    position: absolute;
+    content:">";
+    left:5px;
+    top:30%;
 }
 
 #articlemain .articleimage .btn a{
+    position:relative;
     display:inline-block;
     text-align:center;
-    padding:10px 15px 10px 15px;
+    padding:15px;
     background-color:#005BAC;
     color:#FFFFFF;
     text-decoration: none;
+    line-height: 1.125;
 }
 
-#articlrmain .articleimage .btn a :after{
-    content:url("images/PDF_24.png")            /*疑似要素*/
+#articlemain .articleimage .btn a:after{
+    position:absolute;
+    display: inline-block;
+    width:16px;
+    height:16px;
+    content:"";
+    background-image:url("images/PDF_24.png");            /*疑似要素*/
+    background-size:contain;
+    vertical-align:middle;
 }
 
 #articlemain .prevandnext{

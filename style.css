@@ -173,11 +173,14 @@ body {
     justify-content:space-between;
 }
 
-#articlemain .prevandnext a{         /*疑似要素*/
+#articlemain .prevandnext span{
+    margin:35px 0 45px 0;
+}
+
+#articlemain .prevandnext a{ 
     font-size:16px;
     color:#0C419A;
     text-decoration:none;
-    margin:35px 0 45px 0;
 }
 
 /*NRIの強みリスト部分*/

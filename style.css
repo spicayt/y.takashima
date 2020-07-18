@@ -230,10 +230,63 @@ body {
     text-align:center;
     float:left;
     text-decoration: none;
+    color:#0C419A;
+}
+
+/*企業情報リスト部分*/
+.companyinfomation{
+    width:1000px;
+    margin:auto;
+    border-top:solid #000000 2px;
+}
+
+.companyinfomation h1{
+    display:inline-box;
+    font-size:20px;
+    padding:25px 0 25px 0;
+    margin:0;
+    border-bottom:dotted 1px #999999;
+}
+
+.companyinfomation h2{
+    font-size:16px;
+    margin:20px 0 20px 0;
+}
+
+.companyinfomation ul{
+    padding:0;
+    display:flex;
+    flex-flow:row wrap;
+    border-bottom:dotted 1px #999999;
+    padding-bottom:25px;
+}
+
+.companyinfomation ul li{
+    position: relative;
+    width:250px;
+    height:40px;
+    list-style-type: none;
+    font-size:14px;
+    color:#0C419A;
+}
+
+.companyinfomation a{
+    color:#0C419A;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+/*矢印アイコンの疑似要素の設定*/
+
+#articlemain .localnavi a:before,
+.companyinfomation ul li:before,
+.companyinfomation p:before,
+#contentlist h2:before,
+#contentlist ul li :before{
+    position:absolute;
+    content:url("images/arrowright.png");
 }
 
 #articlemain .localnavi a:before{
-    content:">";
-    position:absolute;
     left:10px;
 }

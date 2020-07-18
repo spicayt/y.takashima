@@ -1,6 +1,8 @@
 /*本文書式*/
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gudea:wght@700&display=swap');
+
 /*ページ幅・全体の設定*/
 body {
     margin: 0;
@@ -15,6 +17,13 @@ body {
     margin:0 auto;
 }
 
+h1{
+    font-size:20px;
+}
+
+h2{
+    font-size:16px;
+}
 
 /*ページヘッダー*/
 
@@ -139,6 +148,7 @@ body {
     background-repeat: no-repeat;
     background-position: 0 50%;
     padding-left:35px;
+    font-size:22px;
 }
 
 #articlemain .articleimage{
@@ -214,7 +224,6 @@ body {
 
 #articlemain .localnavi h2{
     display:block;
-    font-size:16px;
     margin:0 0 10px 20px;
     
 }
@@ -242,14 +251,12 @@ body {
 
 .companyinfomation h1{
     display:inline-box;
-    font-size:20px;
     padding:25px 0 25px 0;
     margin:0;
     border-bottom:dotted 1px #999999;
 }
 
 .companyinfomation h2{
-    font-size:16px;
     margin:20px 0 20px 0;
 }
 
@@ -289,4 +296,26 @@ body {
 
 #articlemain .localnavi a:before{
     left:10px;
+}
+
+/*Followus部分*/
+
+main .sns{
+    text-align:center;
+    border-top:solid 2px #999999;
+    border-bottom:solid 2px #999999;
+    padding:25px 0 25px 0;
+    margin:80px 0 50px 0;  
+}
+
+main .sns img{
+    display:inline-block;
+    margin-left:40px;
+}
+
+main .sns h1{
+    display:inline-block;
+    font-family: 'Gudea', sans-serif;
+    margin:0;
+    vertical-align:5px;
 }

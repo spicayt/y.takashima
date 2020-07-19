@@ -224,6 +224,7 @@ ul li{
     height:auto;
     background-color: #DEECF8;
     padding:20px 0 20px 0;
+    margin-bottom:60px;
 }
 
 #articlemain .localnavi h2{
@@ -255,7 +256,7 @@ ul li{
 /*企業情報リスト部分*/
 .companyinfomation{
     width:1000px;
-    margin:auto;
+    margin:80px auto 0;
     border-top:solid #000000 2px;
 }
 

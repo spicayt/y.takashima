@@ -10,17 +10,15 @@ body {
     color: #333333;
     line-height: 1.875;
     font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
 }
 main{
     border-bottom:solid #999999 1px;
-    
 }
 
 #articlemain{
     width:800px;
     margin:0 auto;
-}
-  
 }
 
 h1{
@@ -39,10 +37,14 @@ ul li{
 /*ページヘッダー*/
 
 #pagehead {
+    position:fixed;
+    top:0;
     display: flex;
     height: 60px;
-    width: auto;
+    width: 100%;
     justify-content: space-between;
+    background-color: #FFFFFF;
+    z-index:1;
 }
 
 #pagehead .globalnavi {
@@ -96,7 +98,7 @@ ul li{
 /*topicpath*/
 .topicpath{
     font-size:12px;
-    margin:0 0 20px 125px;
+    margin:60px 0 20px 125px;
     color:#999999;
 }
 
@@ -203,6 +205,7 @@ ul li{
     background-image:url("images/PDF_24.png");            /*疑似要素*/
     background-size:contain;
     vertical-align:middle;
+    z-index:0;
 }
 
 #articlemain .prevandnext{

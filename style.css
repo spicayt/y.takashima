@@ -61,7 +61,6 @@ main .sns img{
     height:60px;
 }
 
-
 /*ページヘッダー*/
 
 #pagehead {
@@ -77,7 +76,9 @@ main .sns img{
 
 #pagehead .globalnavi {
     display: flex;
+    height:100%;
     width: 100%;
+
 }
 
 #pagehead .globalnavi .logo{ 
@@ -98,17 +99,23 @@ main .sns img{
 #pagehead .globalnavi .pagelist ul {
     display: flex;
     justify-content: flex-end;
+    height:100%;
+    margin:0;
 }
 
 #pagehead .globalnavi .pagelist ul li {
     display: inline-block;
     margin-left:20px;
+    height:100%;
 }
 
 #pagehead .globalnavi .pagelist ul li a{
     color:#000000;
     text-decoration:none;
     font-weight:bold;
+    display:inline-block;
+    height:100%;
+    line-height:60px;
 }
 
 /*右上アイコン*/
@@ -249,6 +256,7 @@ main .sns img{
     font-size:16px;
     color:#0C419A;
     text-decoration:none;
+    line-height:1;
 }
 
 /*NRIの強みリスト部分*/
@@ -284,6 +292,7 @@ main .sns img{
     float:left;
     text-decoration: none;
     color:#0C419A;
+    border:solid 1px #dfdcdc;
 }
 
 /*企業情報リスト部分*/
@@ -431,16 +440,57 @@ main .sns h1{
     vertical-align: bottom;
 }
 
+/*リンクでのマウスオーバー時の挙動*/
+
+#pagehead .iconlist .icon:hover{
+    opacity:0.6;
+}
+
+#pagehead .globalnavi .pagelist a:hover{
+    color:#0C419A;
+    border-bottom:solid #000000 2px;
+    transition:0.1s;
+}
+
+#articlemain .articleimage .btn a:hover{
+    opacity:0.8;
+    transition:0.5s;
+}
+
+#articlemain .prevandnext a:hover{
+    border-bottom:solid #0C419A 2px;
+}
+
+#articlemain .localnavi a:hover{
+    background-color: #f3f3f3;
+    transition:0.5s;
+}
+
+main .companyinfomation a:hover{
+    border-bottom:solid #0C419A 1px;
+}
+
+
 /*矢印アイコンの疑似要素の設定*/
 
+#articlemain .localnavi a:before{
+    position:absolute;
+    content:">";
+    color:#999999;
+}
+
+#articlemain .localnavi a:hover:before{
+    border-bottom:none;
+}
+
 .topicpath a:after,
-#articlemain .localnavi a:before,
 .companyinfomation ul li:before,
 .companyinfomation p:before,
 #contentslist .listchild h2:before,
 #contentslist .listchild ul li:before{
     position:absolute;
     content:url("images/arrowright.png");
+    border:none;
 }
 
 #articlemain .localnavi a:before{

@@ -330,7 +330,7 @@ main .sns img{
 
 .companyinfomation a{
     color:#0C419A;
-    padding-left:20px;
+    margin-left:20px;
     text-decoration:none;
 }
 
@@ -440,6 +440,22 @@ main .sns h1{
     vertical-align: bottom;
 }
 
+/*矢印アイコンの疑似要素の設定*/
+
+#articlemain .localnavi a:before{
+    position:absolute;
+    content:">";
+    color:#999999;
+}
+
+.topicpath a:after,
+#contentslist .listchild h2:before,
+#contentslist .listchild ul li:before,
+.companyinfomation ul li:before{
+    position:absolute;
+    content:url("images/arrowright.png");
+}
+
 /*リンクでのマウスオーバー時の挙動*/
 
 #pagehead .iconlist .icon:hover{
@@ -468,31 +484,4 @@ main .sns h1{
 
 main .companyinfomation a:hover{
     border-bottom:solid #0C419A 1px;
-}
-
-
-/*矢印アイコンの疑似要素の設定*/
-
-#articlemain .localnavi a:before{
-    position:absolute;
-    content:">";
-    color:#999999;
-}
-
-#articlemain .localnavi a:hover:before{
-    border-bottom:none;
-}
-
-.topicpath a:after,
-.companyinfomation ul li:before,
-.companyinfomation p:before,
-#contentslist .listchild h2:before,
-#contentslist .listchild ul li:before{
-    position:absolute;
-    content:url("images/arrowright.png");
-    border:none;
-}
-
-#articlemain .localnavi a:before{
-    left:10px;
 }

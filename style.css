@@ -16,11 +16,11 @@ main{
     
 }
 
-#articlemain,
-#pagefoot ul,
-#pagefoot .copyright{
+#articlemain{
     width:800px;
     margin:0 auto;
+}
+  
 }
 
 h1{
@@ -343,10 +343,58 @@ main .sns h1{
     padding-left:20px;
 }
 
+/*ページフッター*/
+#pagefoot{
+    position:relative;
+}
+
+#pagefoot ul,
+#pagefoot .copyright{
+    width:1000px;
+    margin:auto;
+    padding:0;
+}
+
 #pagefoot ul{
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-top:70px;
+    text-align:center;
+}
+
+#pagefoot ul li{
+    font-size:12px;
+    line-height:1;
+    color:#999999;
+    border-right:solid 1px #999999;
+    padding:0 20px 0 20px;
+    margin:0;
+}
+
+#pagefoot ul li:first-child{
+    padding-left:0;
+}
+
+#pagefoot ul li:last-child{
+    border-right: none;
+    padding-right:0;
+}
+
+#pagefoot .copyright{
+    font-size:10px;
+    margin-top:25px;
+    margin-bottom:85px;
+}
+
+#pagefoot a{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+
+#pagefoot a img{
+    vertical-align: bottom;
 }
 
 /*矢印アイコンの疑似要素の設定*/

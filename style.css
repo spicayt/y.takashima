@@ -25,6 +25,10 @@ h2{
     font-size:16px;
 }
 
+ul li{
+    font-size:14px;
+}
+
 /*ページヘッダー*/
 
 #pagehead {
@@ -61,7 +65,6 @@ h2{
 
 #pagehead .globalnavi .pagelist ul li {
     display: inline-block;
-    font-size: 14px;
     margin-left:20px;
 }
 
@@ -216,16 +219,16 @@ h2{
     padding:20px 0 20px 0;
 }
 
-#articlemain .localnavi:after{
-    display:block;
-    content:"";
-    clear:both;
-}
-
 #articlemain .localnavi h2{
     display:block;
     margin:0 0 10px 20px;
     
+}
+
+#articlemain .localnavi:after{
+    display:block;
+    content:"";
+    clear:both;
 }
 
 #articlemain .localnavi a{
@@ -273,7 +276,6 @@ h2{
     width:250px;
     height:40px;
     list-style-type: none;
-    font-size:14px;
     color:#0C419A;
 }
 
@@ -283,20 +285,6 @@ h2{
     text-decoration:none;
 }
 
-/*矢印アイコンの疑似要素の設定*/
-
-#articlemain .localnavi a:before,
-.companyinfomation ul li:before,
-.companyinfomation p:before,
-#contentlist h2:before,
-#contentlist ul li :before{
-    position:absolute;
-    content:url("images/arrowright.png");
-}
-
-#articlemain .localnavi a:before{
-    left:10px;
-}
 
 /*Followus部分*/
 
@@ -318,4 +306,49 @@ main .sns h1{
     font-family: 'Gudea', sans-serif;
     margin:0;
     vertical-align:5px;
+}
+
+/*もくじ以下*/
+
+#contentslist{
+    width:1300px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#contentslist .listchild{
+    width:320px;
+    position:relative;
+}
+
+#contentslist .listchild ul{
+    padding:0;
+}
+
+#contentslist .listchild ul li{
+    list-style-type: none;
+    padding:0;
+    position:relative;
+}
+
+#contentslist .listchild a{
+    display:inline-box;
+    padding-left:20px;
+}
+
+
+/*矢印アイコンの疑似要素の設定*/
+
+#articlemain .localnavi a:before,
+.companyinfomation ul li:before,
+.companyinfomation p:before,
+#contentslist .listchild h2:before,
+#contentslist .listchild ul li:before{
+    position:absolute;
+    content:url("images/arrowright.png");
+}
+
+#articlemain .localnavi a:before{
+    left:10px;
 }

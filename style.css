@@ -97,15 +97,17 @@ ul li{
 .topicpath{
     font-size:12px;
     margin:0 0 20px 125px;
-}
-
-.topicpath a{
-    text-decoration: none;
     color:#999999;
 }
 
-.topicpath a :after{                       /*疑似要素*/
-    content:">";
+.topicpath a,
+.topicpath span{
+    margin-left:10px;
+}
+
+.topicpath a{
+    color:inherit;
+    text-decoration: none;
 }
 
 /*タイトル*/
@@ -400,6 +402,7 @@ main .sns h1{
 
 /*矢印アイコンの疑似要素の設定*/
 
+.topicpath a:after,
 #articlemain .localnavi a:before,
 .companyinfomation ul li:before,
 .companyinfomation p:before,

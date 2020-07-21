@@ -465,6 +465,12 @@ main .sns h1{
     content:url("images/arrowright.png");
 }
 
+.companyinfomation p:before{        /*前ページへ戻るだけは反転*/
+    position:absolute;
+    content:url("images/arrowright.png");
+    transform: scale(-1,1);
+}
+
 /*リンクでのマウスオーバー時の挙動*/
 #pagehead .iconlist .icon:hover{
     opacity:0.6;

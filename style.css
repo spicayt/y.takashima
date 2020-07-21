@@ -51,7 +51,7 @@ main .sns img{
     height:25px;
 }
 
-#pagemain .articleimage img{
+#pagemain img{
     width:800px;
     height:600px;
 }
@@ -200,27 +200,27 @@ main .sns img{
     font-size:22px;
 }
 
-#articlemain .articleimage{
-    margin:20px 0 20px 0;
-}
-
-#articlemain .articleimage figure{
+#articlemain figure{
     margin:0;
 }
 
-#articlemain .articleimage .btn{
+#articlemain figure img{
+    vertical-align: bottom;
+}
+
+#articlemain .btn{
     text-align:center;
     margin:45px 0 45px 0; 
 }
 
-#articlemain .articleimage .btn a:before{        /*疑似要素*/
+#articlemain .btn a:before{        /*疑似要素*/
     position: absolute;
     content:">";
     left:5px;
     top:30%;
 }
 
-#articlemain .articleimage .btn a{
+#articlemain .btn a{
     position:relative;
     display:inline-block;
     text-align:center;
@@ -231,7 +231,7 @@ main .sns img{
     line-height: 1.125;
 }
 
-#articlemain .articleimage .btn a:after{
+#articlemain .btn a:after{
     position:absolute;
     display: inline-block;
     width:16px;
@@ -261,6 +261,9 @@ main .sns img{
 
 /*NRIの強みリスト部分*/
 #articlemain .localnavi{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
     width:800px;
     height:auto;
     background-color: #DEECF8;
@@ -269,30 +272,31 @@ main .sns img{
 }
 
 #articlemain .localnavi h2{
-    display:block;
+    width:100%;
     margin:0 0 10px 20px;
     
 }
 
-#articlemain .localnavi:after{
-    display:block;
-    content:"";
-    clear:both;
+#articlemain .localnavi a{
+    display:flex;
+    box-sizing:border-box;
+    background-color: #FFFFFF;
+    width:240px;
+    margin:0 0 20px 20px;
+    justify-content:center;
+    text-decoration: none;
+    align-items:center;
+    border:solid 1px #dfdcdc;
+    position: relative;
 }
 
-#articlemain .localnavi a{
-    position:relative;
-    display:block;
-    box-sizing:border-box;
-    background-color:#FFFFFF;
-    width:240px;
-    padding:20px 10px 20px 10px;
-    margin:0 0 20px 20px;
-    text-align:center;
-    float:left;
-    text-decoration: none;
+#articlemain .localnavi a p{
     color:#0C419A;
-    border:solid 1px #dfdcdc;
+    width:200px;
+    line-height:1;
+    margin:15px;
+    text-align:center;
+    word-wrap:break-word;
 }
 
 /*企業情報リスト部分*/
@@ -303,7 +307,6 @@ main .sns img{
 }
 
 .companyinfomation h1{
-    display:inline-box;
     padding:25px 0 25px 0;
     margin:0;
     border-bottom:dotted 1px #999999;
@@ -382,8 +385,9 @@ main .sns h1{
 }
 
 #contentslist .listchild a{
-    display:inline-box;
-    padding-left:20px;
+    margin-left:20px;
+    text-decoration: none;
+    color:#000000;
 }
 
 /*ページフッター*/
@@ -424,28 +428,34 @@ main .sns h1{
     padding-right:0;
 }
 
+#pagefoot ul li a{
+    text-decoration:none;
+    color:inherit;
+}
+
 #pagefoot .copyright{
     font-size:10px;
     margin-top:25px;
     margin-bottom:85px;
 }
 
-#pagefoot a{
+#pagefoot .gototop{
     position: fixed;
     bottom:0;
     right:0;
 }
 
-#pagefoot a img{
+#pagefoot .gototop img{
     vertical-align: bottom;
 }
 
 /*矢印アイコンの疑似要素の設定*/
 
 #articlemain .localnavi a:before{
-    position:absolute;
+    position: absolute;
     content:">";
     color:#999999;
+    left:10px;
 }
 
 .topicpath a:after,
@@ -457,7 +467,6 @@ main .sns h1{
 }
 
 /*リンクでのマウスオーバー時の挙動*/
-
 #pagehead .iconlist .icon:hover{
     opacity:0.6;
 }
@@ -468,7 +477,7 @@ main .sns h1{
     transition:0.1s;
 }
 
-#articlemain .articleimage .btn a:hover{
+#articlemain .btn a:hover{
     opacity:0.8;
     transition:0.5s;
 }
@@ -484,4 +493,12 @@ main .sns h1{
 
 main .companyinfomation a:hover{
     border-bottom:solid #0C419A 1px;
+}
+
+#contentslist .listchild a:hover{
+    border-bottom:solid 1px #000000;
+}
+
+#pagefoot ul li a:hover{
+    border-bottom:solid 1px #999999;
 }

@@ -333,6 +333,7 @@ main .sns img{
     color:#0C419A;
     margin-left:20px;
     text-decoration:none;
+    line-height:1;
 }
 
 
@@ -481,7 +482,7 @@ main .sns h1{
 }
 
 #articlemain .prevandnext a:hover{
-    border-bottom:solid #0C419A 2px;
+    text-decoration:underline solid;
 }
 
 #articlemain .localnavi a:hover{
@@ -490,13 +491,13 @@ main .sns h1{
 }
 
 main .companyinfomation a:hover{
-    border-bottom:solid #0C419A 1px;
+    text-decoration:underline solid;
 }
 
 #contentslist .listchild a:hover{
-    border-bottom:solid 1px #000000;
+    text-decoration:underline solid;
 }
 
 #pagefoot ul li a:hover{
-    border-bottom:solid 1px #999999;
+    text-decoration:underline solid;
 }

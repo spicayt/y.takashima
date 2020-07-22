@@ -242,7 +242,6 @@ main .sns img{
     content:"";
     background-image:url("images/PDF_24.png");            /*疑似要素*/
     background-size:contain;
-    background-position:
     z-index:0;
 }
 

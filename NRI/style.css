@@ -1,0 +1,513 @@
+/*本文書式*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+/*ページ幅・全体の設定*/
+body {
+    margin:0;
+    font-size:16px;
+    color:#333333;
+    line-height:1.875;
+    font-family:'Noto Sans JP', sans-serif;
+    position:relative;
+}
+main{
+    border-bottom:solid #999999 1px;
+}
+
+#pagefoot{
+    width:1000px;
+    margin:75px auto 110px auto;
+}
+
+#articlemain{
+    width:800px;
+    margin:0 auto;
+}
+
+h1{
+    font-size:20px;
+}
+
+h2{
+    font-size:16px;
+}
+
+ul li{
+    font-size:14px;
+    list-style-type:none;
+}
+
+/*画像サイズの設定*/
+#pagehead .globalnavi .logo img{
+    width:70px;
+    height:35px;
+}
+
+#pagehead .icon img{
+    width:20px;
+    height:20px;
+}
+
+#pagemain #articlemain .snsbutton img,
+main .sns img{
+    width:25px;
+    height:25px;
+}
+
+#pagemain img{
+    width:800px;
+    height:600px;
+}
+
+#pagefoot img{
+    width:60px;
+    height:60px;
+}
+
+/*ページヘッダー*/
+
+#pagehead {
+    position:fixed;
+    top:0;
+    display:flex;
+    height:60px;
+    width:100%;
+    justify-content:space-between;
+    background-color:#FFFFFF;
+    z-index:1;
+}
+
+#pagehead .globalnavi {
+    display:flex;
+    height:100%;
+    width:100%;
+
+}
+
+#pagehead .globalnavi .logo{ 
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#pagehead .globalnavi .pagelist{
+    width:100%;
+}
+
+#pagehead .iconlist{
+    width:180px;
+    display:flex;
+    margin-left:20px;
+}
+
+#pagehead .globalnavi .pagelist ul {
+    display:flex;
+    justify-content:flex-end;
+    height:100%;
+    margin:0;
+}
+
+#pagehead .globalnavi .pagelist ul li {
+    display:inline-block;
+    margin-left:20px;
+    height:100%;
+}
+
+#pagehead .globalnavi .pagelist ul li a{
+    color:#000000;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+    height:100%;
+    line-height:60px;
+}
+
+/*右上アイコン*/
+
+#pagehead .iconlist a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:60px;
+    margin:0;
+    text-align:center;
+    text-decoration:none; 
+}
+
+/*topicpath*/
+.topicpath{
+    font-size:12px;
+    margin:60px 0 20px 125px;
+    color:#999999;
+}
+
+.topicpath a,
+.topicpath span{
+    margin-left:10px;
+}
+
+.topicpath a{
+    color:inherit;
+    text-decoration:none;
+}
+
+/*タイトル*/
+.titletext{
+    height:252px;
+    width:100%;
+    background-image:url(images/topimage.jpg);
+    background-position:center;
+    color:#FFFFFF;
+    background-size:cover;
+    position:relative;
+}
+
+.titletext p,
+.titletext h1{
+    position:absolute;
+    left:260px;
+    margin:0;
+}
+
+.titletext p{
+    font-size:21px;
+    top:40px;
+}
+
+.titletext h1{
+    font-size:28px;
+    top:80px;
+}
+
+/*メインページ*/
+#articlemain .snsbutton{
+    text-align:right;
+    margin-top:35px;
+}
+
+#articlemain .snsbutton img{
+    margin-left:20px;
+}
+
+#articlemain .snsbutton:before{       /*疑似要素*/
+    content:"Share";
+    display:inline-block;
+    font-size:14px;
+    vertical-align:6px;
+}
+
+#articlemain .articletext h2{
+    background-image:url(images/midashi.jpg);
+    background-repeat:no-repeat;
+    background-position:0 50%;
+    padding-left:35px;
+    font-size:22px;
+}
+
+#articlemain figure{
+    margin:0;
+}
+
+#articlemain figure img{
+    vertical-align:bottom;
+}
+
+#articlemain .btn{
+    text-align:center;
+    margin:45px 0 45px 0; 
+}
+
+#articlemain .btn a:before{        /*疑似要素*/
+    position:absolute;
+    content:">";
+    left:5px;
+    top:30%;
+}
+
+#articlemain .btn a{
+    position:relative;
+    display:inline-block;
+    text-align:center;
+    padding:15px;
+    background-color:#005BAC;
+    color:#FFFFFF;
+    text-decoration:none;
+    line-height:1.125;
+}
+
+#articlemain .btn a:after{
+    position:absolute;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    content:"";
+    background-image:url("images/PDF_24.png");            /*疑似要素*/
+    background-size:contain;
+    z-index:0;
+}
+
+#articlemain .prevandnext{
+    display:flex;
+    justify-content:space-between;
+}
+
+#articlemain .prevandnext span{
+    margin:35px 0 45px 0;
+}
+
+#articlemain .prevandnext a{ 
+    font-size:16px;
+    color:#0C419A;
+    text-decoration:none;
+    line-height:1;
+}
+
+/*NRIの強みリスト部分*/
+#articlemain .localnavi{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:800px;
+    height:auto;
+    background-color:#DEECF8;
+    padding:20px 0 20px 0;
+    margin-bottom:60px;
+}
+
+#articlemain .localnavi h2{
+    width:100%;
+    margin:0 0 10px 20px;
+    
+}
+
+#articlemain .localnavi a{
+    display:flex;
+    box-sizing:border-box;
+    background-color:#FFFFFF;
+    width:240px;
+    margin:0 0 20px 20px;
+    justify-content:center;
+    text-decoration:none;
+    align-items:center;
+    border:solid 1px #DFDCDC;
+    position:relative;
+}
+
+#articlemain .localnavi a p{
+    color:#0C419A;
+    width:200px;
+    line-height:1;
+    margin:15px;
+    text-align:center;
+    word-wrap:break-word;
+}
+
+/*企業情報リスト部分*/
+.companyinfomation{
+    width:1000px;
+    margin:80px auto 0;
+    border-top:solid #000000 2px;
+}
+
+.companyinfomation h1{
+    padding:25px 0 25px 0;
+    margin:0;
+    border-bottom:dotted 1px #999999;
+}
+
+.companyinfomation h2{
+    margin:20px 0 20px 0;
+}
+
+.companyinfomation ul{
+    padding:0;
+    display:flex;
+    flex-flow:row wrap;
+    border-bottom:dotted 1px #999999;
+    padding-bottom:25px;
+}
+
+.companyinfomation ul li{
+    position:relative;
+    width:250px;
+    height:40px;
+    color:#0C419A;
+}
+
+.companyinfomation a{
+    color:#0C419A;
+    margin-left:20px;
+    text-decoration:none;
+    line-height:1;
+}
+
+
+/*Followus部分*/
+
+main .sns{
+    text-align:center;
+    border-top:solid 2px #999999;
+    border-bottom:solid 2px #999999;
+    padding:25px 0 25px 0;
+    margin:80px 0 50px 0;  
+}
+
+main .sns img{
+    display:inline-block;
+    margin-left:40px;
+}
+
+main .sns h1{
+    display:inline-block;
+    font-family:'Noto Sans JP', sans-serif;
+    margin:0;
+    vertical-align:5px;
+}
+
+/*もくじ以下*/
+
+#contentslist{
+    width:1300px;
+    margin:auto;
+    margin-bottom:55px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#contentslist .listchild{
+    width:320px;
+    position:relative;
+}
+
+#contentslist .listchild ul{
+    padding:0;
+}
+
+#contentslist .listchild ul li{
+    padding:0;
+    position:relative;
+}
+
+#contentslist .listchild a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#000000;
+}
+
+/*ページフッター*/
+#pagefoot{
+    position:relative;
+}
+
+#pagefoot ul,
+#pagefoot .copyright{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+#pagefoot ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    text-align:center;
+}
+
+#pagefoot ul li{
+    font-size:12px;
+    line-height:1;
+    color:#999999;
+    border-right:solid 1px #999999;
+    padding:0 20px 0 20px;
+    margin:0;
+}
+
+#pagefoot ul li:first-child{
+    padding-left:0;
+}
+
+#pagefoot ul li:last-child{
+    border-right:none;
+    padding-right:0;
+}
+
+#pagefoot ul li a{
+    text-decoration:none;
+    color:inherit;
+}
+
+#pagefoot .copyright{
+    font-size:10px;
+    display:block;
+    margin-top:25px;
+}
+
+#pagefoot .gototop{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+#pagefoot .gototop img{
+    vertical-align:bottom;
+}
+
+/*矢印アイコンの疑似要素の設定*/
+
+#articlemain .localnavi a:before{
+    position:absolute;
+    content:">";
+    color:#999999;
+    left:10px;
+}
+
+.topicpath a:after,
+#contentslist .listchild h2:before,
+#contentslist .listchild ul li:before,
+.companyinfomation ul li:before{
+    position:absolute;
+    content:url("images/arrowright.png");
+}
+
+.companyinfomation p:before{        /*前ページへ戻るだけは反転*/
+    position:absolute;
+    content:url("images/arrowright.png");
+    transform:scale(-1,1);
+}
+
+/*リンクでのマウスオーバー時の挙動*/
+#pagehead .iconlist .icon:hover{
+    opacity:0.6;
+}
+
+#pagehead .globalnavi .pagelist a:hover{
+    color:#0C419A;
+    border-bottom:solid #000000 2px;
+    transition:0.1s;
+}
+
+#articlemain .btn a:hover{
+    opacity:0.8;
+    transition:0.5s;
+}
+
+#articlemain .prevandnext a:hover{
+    text-decoration:underline solid;
+}
+
+#articlemain .localnavi a:hover{
+    background-color:#F3F3F3;
+    transition:0.5s;
+}
+
+main .companyinfomation a:hover{
+    text-decoration:underline solid;
+}
+
+#contentslist .listchild a:hover{
+    text-decoration:underline solid;
+}
+
+#pagefoot ul li a:hover{
+    text-decoration:underline solid;
+}
+

@@ -1,2 +1,0 @@
-# y.takashima
-a beginner

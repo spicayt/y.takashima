@@ -12,17 +12,29 @@ body {
 }
 
 
-/*ページ幅・背景の設定*/
+/*ページ背景の設定*/
 .local-navi-area{
     background-color:rgb(24,24,54);
 }
 
 .header-top,
 .main-content--colored,
-.submenu-list,
+.submenu-area,
 .sitemap,
 .footer-sns-list
 {
     background-color:rgb(247,247,247);
 }
 
+/*ページ幅の設定*/
+.header-contents,
+.local-navi,
+.topic-path,
+.page-main__inner--thin,
+.aboutus,
+.submenu-list,
+.school-list
+{
+    width:1060px;
+    margin:auto;
+}

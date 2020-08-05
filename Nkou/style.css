@@ -7,4 +7,22 @@ body {
     'M+ C Type-2 (basic latin) Regular',
     'M+ Type-2 (general-j) Regular', sans-serif;
     font-size:16px;
+    color:#272727;
+    background-color:rgb(255,255,255)
 }
+
+
+/*ページ幅・背景の設定*/
+.local-navi-area{
+    background-color:rgb(24,24,54);
+}
+
+.header-top,
+.main-content--colored,
+.submenu-list,
+.sitemap,
+.footer-sns-list
+{
+    background-color:rgb(247,247,247);
+}
+

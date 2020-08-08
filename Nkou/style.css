@@ -91,6 +91,7 @@ a{
 }
 
 /*ヘッダー部分*/
+
 .header-top{
     margin:0;
     display:flex;
@@ -166,4 +167,55 @@ a{
 .header-top-nav-bar__link:hover,
 .header-top__loginlink:hover{
     text-decoration:underline solid;
+}
+
+/*ヘッダータイトル部分*/
+.site-title__name{
+    width:211px;
+    height:45px;
+    vertical-align: bottom;
+}
+
+.site-title__link{
+    display:block;
+}
+
+.header-contents{
+    margin:20px 0 20px;
+    padding:0 16% 0;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-contents__right{
+    display:flex;
+}
+.header-callus{
+    vertical-align: top;
+    margin-right:30px;
+}
+
+.header-callus__num{
+    vertical-align: bottom;
+}
+
+.header-callus__open{
+    font-size:11px;
+    margin:0;
+    text-align:center;
+}
+
+.headersns__icon{
+    vertical-align: bottom;
+}
+
+.header-sns__link{
+    display:inline-block;
+    vertical-align: bottom;
+}
+
+/*ヘッダーローカルナビ部分*/
+.header-navi-area{
+    display:flex;
+    justify-content: space-between;
 }

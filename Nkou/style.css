@@ -79,7 +79,6 @@ a{
 }
 
 /*ページ幅の設定*/
-.header-contents,
 .local-navi,
 .topic-path,
 .page-main__inner--thin,
@@ -182,10 +181,11 @@ a{
 }
 
 .header-contents{
-    margin:15px 0 15px;
+    margin:20px 0 20px;
     padding:0 16% 0;
     display:flex;
     justify-content:space-between;
+    align-items:center;
 }
 
 .header-contents__right{
@@ -303,6 +303,7 @@ a{
 
 /*ボタン部分*/
 .header-navi-area-btnlist{
+    width:360px;
     display:flex;
     padding:0;
     flex-grow:1;

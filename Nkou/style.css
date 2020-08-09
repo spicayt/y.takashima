@@ -193,7 +193,7 @@ a{
 }
 .header-callus{
     vertical-align: top;
-    margin-right:30px;
+    margin-right:40px;
 }
 
 .header-callus__num{
@@ -237,7 +237,7 @@ a{
     padding:0;
     width:640px;
     height:30px;
-    margin:0 25px 0 0;
+    margin:0 50px 0 0;
 }
 
 .global-navi__item{
@@ -313,7 +313,7 @@ a{
     display:flex;
     padding:0;
     flex-grow:1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin:0;
 }
@@ -325,8 +325,11 @@ a{
     border:solid 1px;
     flex:1 1 50%;
     height:40px;
-    box-sizing:border-box;
     margin-left:10px;
+}
+
+.header-navi-area-btn:first-child{
+    margin:0;
 }
 
 .header-navi-area-btn__link{

@@ -216,6 +216,75 @@ a{
 
 /*ヘッダーローカルナビ部分*/
 .header-navi-area{
+    padding:0 16% 0;
+    display:flex;   
+}
+
+.global-navi{
+    display: flex;
+    justify-content:center;
+    padding:0;
+    margin-right:40px;
+}
+
+.global-navi__item{
+    text-align: center;
+    font-size: 15px;
+    font-weight:400;
+    padding:0 30px;
+    border-right:solid 1px;
+    flex-grow:1;
+}
+
+.global-navi__item:first-child{
+    border-left:solid 1px;
+}
+
+.global-navi__ruby{
+    text-indent: 100%;
+    display:block;
+    overflow: hidden;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    width:100px;
+    height:10px;
+}
+
+.global-navi__ruby--about{
+    background-image:url(images/header_images/global_nav_about.png);
+}
+.global-navi__ruby--net{
+    background-image:url(images/header_images/global_nav_net.png);
+}
+
+.global-navi__ruby--commute{
+    background-image:url(images/header_images/global_nav_commute.png);
+}
+
+.global-navi__ruby--alliance{
+    background-image:url(images/header_images/global_nav_alliance.png);
+}
+
+.header-navi-area-btnlist{
     display:flex;
-    justify-content: space-between;
+    padding:0;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navi-area-btn{
+    font-size:15px;
+    font-weight: 700;
+    padding:5px 25px;
+    margin-left:10px;
+    border:solid 1px;
+    flex:1 1 50%;
+}
+
+.header-navi-area-btn__link{
+    display:inline-block;
+    text-align: center;
+    width:100%;
+    line-height:1.4;
 }

@@ -201,18 +201,24 @@ a{
 }
 
 .header-callus__open{
+    color:#8d959c;
     font-size:11px;
     margin:0;
     text-align:center;
 }
 
-.headersns__icon{
+.header-sns{
+    display:flex;
+    align-items:center;
+}
+
+.header-sns__icon{
     vertical-align: bottom;
 }
 
 .header-sns__link{
     display:inline-block;
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 /*ヘッダーグローバルナビ行*/

@@ -181,7 +181,7 @@ a{
 }
 
 .header-contents{
-    margin:20px 0 20px;
+    margin:15px 0 15px;
     padding:0 16% 0;
     display:flex;
     justify-content:space-between;
@@ -214,45 +214,71 @@ a{
     vertical-align: bottom;
 }
 
-/*ヘッダーローカルナビ部分*/
+/*ヘッダーグローバルナビ行*/
 .header-navi-area{
     padding:0 16% 0;
-    display:flex;   
+    display:flex;
+    align-items: center;
+    margin-bottom:20px;   
 }
 
+/*グローバルナビ本体*/
 .global-navi{
     display: flex;
     justify-content:center;
     padding:0;
-    margin-right:40px;
+    width:640px;
+    height:30px;
+    margin:0 40px 0 0;
 }
 
 .global-navi__item{
     text-align: center;
+    vertical-align:bottom;
     font-size: 15px;
     font-weight:400;
-    padding:0 30px;
-    border-right:solid 1px;
+    padding:0px;
+    border-right:solid 1px #e1e1e1;
     flex-grow:1;
+    line-height:1;
+}
+
+.global-navi__link{
+    display:block;
+    width:100%;
 }
 
 .global-navi__item:first-child{
-    border-left:solid 1px;
+    border-left:solid 1px #e1e1e1;
 }
 
 .global-navi__ruby{
     text-indent: 100%;
-    display:block;
+    display:inline-block;
     overflow: hidden;
-    background-position:bottom center;
+    background-position:top center;
     background-repeat:no-repeat;
     width:100px;
     height:10px;
 }
 
+.global-navi__ruby--about,
+.global-navi__ruby:hover{
+    text-indent: 100%;
+    display:inline-block;
+    overflow: hidden;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    width:100px;
+    height:10px;
+   }
+
+/*画像は個別に別途指定*/
 .global-navi__ruby--about{
     background-image:url(images/header_images/global_nav_about.png);
+
 }
+
 .global-navi__ruby--net{
     background-image:url(images/header_images/global_nav_net.png);
 }
@@ -265,12 +291,15 @@ a{
     background-image:url(images/header_images/global_nav_alliance.png);
 }
 
+
+/*ボタン部分*/
 .header-navi-area-btnlist{
     display:flex;
     padding:0;
     flex-grow:1;
     justify-content: center;
     align-items: center;
+    margin:0;
 }
 
 .header-navi-area-btn{

@@ -86,7 +86,7 @@ a{
 .submenu-list,
 .school-list
 {
-    width:1060px;
+    width:1040px;
     margin:auto;
 }
 
@@ -353,4 +353,68 @@ a{
     background-color:#1f286f;
     color:#ffffff;
     transition:all 0.2s;
+}
+
+/*ローカルナビ*/
+.local-navi-area{
+    height:90px;
+}
+
+.local-navi-area:before{
+    content:"";
+    
+}
+
+.local-navi{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    height:inherit;
+    padding:0;
+}
+
+.local-navi__item{
+    display:flex;
+    align-items: center;
+    height:35px;
+    padding:0;
+    margin-left:20px;
+}
+
+/*斜めボーダー部分*/
+.local-navi__item:before{
+    content:"";
+    display:inline-block;
+    height:20px;
+    border-left:solid 2px #6e7b85;
+    transform:skewX(-150deg);
+    margin-right:20px;
+    width:0;
+}
+
+.local-navi__item:first-child{
+    margin-left:0;
+}
+
+.local-navi__item:first-child:before{
+    content:"";
+    height:0;
+    width:0;
+    transform:skewX(150deg);
+    border-left:none;
+}
+
+.local-navi__link{
+    display:inline-block;
+    color:#ffffff;
+    font-size: 14px;
+    line-height:40px;
+    height:inherit;
+    padding:0 5px;
+}
+
+.local-navi__link:hover{
+    background-color:#ffffff;
+    color:#1f286f;
 }

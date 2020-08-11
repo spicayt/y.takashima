@@ -85,7 +85,7 @@ a{
 .aboutus,
 .submenu-list,
 .school-list{
-    width:1040px;
+    width:1060px;
     margin:auto;
 }
 
@@ -515,6 +515,7 @@ a{
     text-align: center;
     margin-top:80px;
     margin-bottom:80px;
+    letter-spacing:0.3em;
 }
 
 .catchcopy__caption{
@@ -535,5 +536,67 @@ a{
     box-sizing: border-box;
     position:absolute;
     bottom:0;
-    left:215px;    
+    left:215px;
 }
+
+.catchcopy__text{
+    font-size:16px;
+    font-weight:500;  
+}
+
+/*教育方針以降*/
+.intro-content__title{
+    font-size:26px;
+    font-weight:400;
+    border-bottom:solid 1px;
+    padding-bottom:10px;
+    margin:45px 5px;
+    position:relative;
+}
+
+/*変形ボーダーの太い部分*/
+.intro-content__title:after{
+    content:"";
+    display:block;
+    border-bottom:solid 2px;
+    width:280px;
+    height:3px;
+    box-sizing: border-box;
+    position:absolute;
+    bottom:-1px;
+    left:0;    
+}
+
+.intro-content{
+    width:1060px;
+}
+
+.intro-content-list__keyword{
+    font-size:24px;
+    font-weight:400;
+    display:inline-block;
+}
+
+.intro-content__text-block{
+    margin-right:60px;
+    width:500px;
+    float:left;
+}
+
+.intro-content-imgblock{
+    float:right;
+    margin:0;
+    padding:0;
+}
+
+.intro-content:after,
+.intro-content-topic:after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.intro-content-topic{
+    margin:80px 0;
+}
+

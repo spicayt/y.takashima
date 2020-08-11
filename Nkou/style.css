@@ -1,5 +1,4 @@
-/* フォントの読み込み
-----------------------------------------------------------*/
+/* フォントの読み込み*/
 
 @font-face {
     font-family: "AxisStd-UltraLight";
@@ -17,7 +16,7 @@
     font-family: "AxisStd-Light";
     src: url("../fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix");
     src: url("../fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix") format("eot"), url("../fonts/ca94208f-21dd-4dc8-ab7c-057d8dbfcccb.woff2") format("woff2"), url("../fonts/18820f9e-d51e-43be-9d0f-e510d9d1878a.woff") format("woff"), url("../fonts/cb3a3886-7dec-420d-bf42-698737ce3561.ttf") format("truetype"), url("../fonts/9bdde1f9-7637-4fa1-994d-2f2ad4929b1f.svg#9bdde1f9-7637-4fa1-994d-2f2ad4929b1f") format("svg");
-}
+    }
 
 @font-face {
     font-family: "AxisStd-Regular";
@@ -29,7 +28,7 @@
 
 /*フォント設定*/
 body {
-    font-family:AxisStd-Light, メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family:"AxisStd-Light", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
     font-size:16px;
     line-height:1.81;
     color:#272727;
@@ -40,6 +39,7 @@ body {
 .header-top,
 .header-contents,
 .header-navi-area,
+.catchcopy__caption,
 .intro-content__title,
 .intro-content-topic__caption,
 .main-content__title,
@@ -50,7 +50,7 @@ body {
 .index-unit__title,
 .page-foot__gotohome,
 .page-foot__copyright{
-    font-family:AxisStd-Regular, sans-serif;
+    font-family:"AxisStd-Regular",sans-serif;
 }
 
 
@@ -81,11 +81,10 @@ a{
 /*ページ幅の設定*/
 .local-navi,
 .topic-path,
-.page-main__inner--thin,
+.page-main__inner,
 .aboutus,
 .submenu-list,
-.school-list
-{
+.school-list{
     width:1040px;
     margin:auto;
 }
@@ -498,8 +497,43 @@ a{
     font-weight:400;
 }
 
-
 .topic-path__link:hover{
     text-decoration:underline;
 }
 
+.catchcopy,
+.catchcopy__caption,
+.catchcopy__text{
+    width:630px;
+    margin:0 auto;
+}
+
+.catchcopy{
+    font-size:33px;
+    font-weight:400;
+    color:#272727;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.catchcopy__caption{
+    font-size:22px;
+    font-weight:400;
+    text-align:center;
+    padding-bottom:25px;
+    margin-bottom:25px;
+    position:relative;
+}
+
+.catchcopy__caption:after{
+    content:"";
+    display:block;
+    border-bottom:solid 1px;
+    width:200px;
+    height:1px;
+    box-sizing: border-box;
+    position:absolute;
+    bottom:0;
+    left:215px;    
+}

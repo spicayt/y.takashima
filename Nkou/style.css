@@ -32,7 +32,7 @@ body {
     font-size:16px;
     line-height:1.81;
     color:#272727;
-    background-color:rgb(255,255,255);
+    background-color:#ffffff;
     margin:0;
 }
 
@@ -66,7 +66,7 @@ a{
 
 /*ページ背景の設定*/
 .local-navi-area{
-    background-color:rgb(24,24,54);
+    background-color:#181836;
 }
 
 .header-top,
@@ -75,7 +75,7 @@ a{
 .sitemap,
 .footer-sns-list
 {
-    background-color:rgb(247,247,247);
+    background-color:#f7f7f7;
 }
 
 /*ページ幅の設定*/
@@ -545,6 +545,11 @@ a{
 }
 
 /*教育方針以降*/
+.intro-content{
+    width:1060px;
+    margin:45px auto 80px;
+}
+
 .intro-content__title{
     font-size:26px;
     font-weight:400;
@@ -565,10 +570,6 @@ a{
     position:absolute;
     bottom:-1px;
     left:0;    
-}
-
-.intro-content{
-    width:1060px;
 }
 
 .intro-content-list__keyword{
@@ -600,3 +601,39 @@ a{
     margin:80px 0;
 }
 
+/*NSTANDARDS部分*/
+.about-ns{
+    width:688px;
+    height:330px;
+    margin:auto;
+    padding:30px 40px;
+    box-sizing:border-box;
+    background-color:#f7f7f7;
+    border:solid 1px #d9d9d9;
+}
+
+.about-ns-imgblock{
+    display:block;
+    float:left;
+    margin:0;
+}
+
+.about-ns-imgblock__img{
+    vertical-align:bottom;
+}
+
+.about-ns-text-block{
+    float:right;
+    width:420px;
+    margin-left:20px;
+}
+
+.about-ns:after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.about-ns-text-block__main--wide{
+    letter-spacing:0.2em;
+}

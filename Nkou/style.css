@@ -371,7 +371,8 @@ a{
     align-items: center;
     justify-content:center;
     height:inherit;
-    padding:0;
+    padding:5px 0;
+    box-sizing: border-box;
 }
 
 .local-navi__item{
@@ -423,12 +424,13 @@ a{
 .page-title{
     height:530px;
     width:100%;
-    padding-top:80px;
+    padding-top:60px;
     background-image:url(images/title_images/about_mainimage01.jpg);
-    background-position: center;
+    background-position:center;
     color:#FFFFFF;
     background-size:cover;
     position:relative;
+    box-sizing: border-box;
 }
 
 .page-title__text{

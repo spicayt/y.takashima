@@ -769,6 +769,18 @@ a{
 
 .main-content-text-block{
     width:280px;
+    position: relative;
+}
+
+.main-content-text-block__link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /*各記事の画像とテキストの左右配置*/
@@ -806,4 +818,16 @@ a{
 
 .font-size13{
     font-size:13px;
+}
+
+.main-content__prog{
+    display:inline-block;
+    background-color:#272727;
+    padding:0 10px;
+}
+
+.main-content__progimg{
+    width:90px;
+    height:15px;
+    vertical-align:middle;    
 }

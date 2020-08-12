@@ -31,6 +31,7 @@ body {
     font-family:"AxisStd-Light", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
     font-size:16px;
     line-height:1.81;
+    font-weight:400;
     color:#272727;
     background-color:#ffffff;
     margin:0;
@@ -51,6 +52,7 @@ body {
 .page-foot__gotohome,
 .page-foot__copyright{
     font-family:"AxisStd-Regular",sans-serif;
+    font-weight:400;
 }
 
 
@@ -544,6 +546,7 @@ a{
     font-weight:500;  
 }
 
+/*導入*/
 /*教育方針以降*/
 .intro-content{
     width:1060px;
@@ -708,4 +711,32 @@ a{
     display:block;
     font-size:12px;
     line-height:22px;
+}
+
+/*メイン記事部分*/
+
+.main-content{
+    padding-top:85px;
+}
+
+.main-content__title{
+    font-size:33px;
+    font-weight:400;
+    text-align:center;
+    margin:0;
+    padding-bottom:25px;
+}
+
+.main-content__title:after{
+    content:"";
+    display:block;
+    width:200px;
+    border-bottom:solid 1px;
+    margin:5px auto 0 auto;
+}
+
+.main-content__caption{
+    font-size:16px;
+    text-align:center;
+    margin:0;
 }

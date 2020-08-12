@@ -717,7 +717,7 @@ a{
 /*メイン記事部分*/
 
 .main-content{
-    padding-top:85px;
+    padding:85px 0 110px 0;
 }
 
 .main-content__title{
@@ -742,9 +742,19 @@ a{
     margin:0;
 }
 
+.main-content-list{
+    margin:65 0 0 0;
+    padding:0;
+}
+
 .main-content__item{
     height:500px;
     margin-bottom:110px;
+    padding:0 10px;
+}
+
+.main-content__item:last-child{
+    margin-bottom:0;
 }
 
 .main-content-img-block{
@@ -758,7 +768,7 @@ a{
 }
 
 .main-content-text-block{
-    width:300px;
+    width:280px;
 }
 
 /*各記事の画像とテキストの左右配置*/
@@ -777,4 +787,23 @@ a{
     content:"";
     display:block;
     clear:both;
+}
+
+.main-content-text-block__caption{
+    font-size:22px;
+}
+
+.main-content-text-block__note-size11{
+    display:inline-block;
+    font-size:11px;
+    line-height:20px;
+    vertical-align:top;
+}
+
+.main-content-text-block__note-size13{
+    font-size:13px;
+}
+
+.font-size13{
+    font-size:13px;
 }

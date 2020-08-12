@@ -740,3 +740,20 @@ a{
     text-align:center;
     margin:0;
 }
+
+/*各記事の画像とテキストの配置*/
+.main-content-imgblock--left,
+.main-content-textblock--left{
+    float:left;
+}
+
+.main-content-imgblock--right,
+.main-content-textblock--right{
+    float:right;
+}
+
+.main-content__item:after:{
+    content:"";
+    display:block;
+    clear:both;
+}

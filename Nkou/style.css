@@ -84,6 +84,7 @@ a{
 .local-navi,
 .topic-path,
 .page-main__inner,
+.main-content__item,
 .aboutus,
 .submenu-list,
 .school-list{
@@ -587,7 +588,7 @@ a{
     float:left;
 }
 
-.intro-content-imgblock{
+.intro-content-img-block{
     float:right;
     margin:0;
     padding:0;
@@ -634,13 +635,13 @@ a{
     position:relative;
 }
 
-.about-ns-imgblock{
+.about-ns-img-block{
     display:block;
     float:left;
     margin:0;
 }
 
-.about-ns-imgblock__img{
+.about-ns-img-block__img{
     vertical-align:bottom;
 }
 
@@ -741,18 +742,38 @@ a{
     margin:0;
 }
 
-/*各記事の画像とテキストの配置*/
-.main-content-imgblock--left,
-.main-content-textblock--left{
-    float:left;
+.main-content__item{
+    height:500px;
+    margin-bottom:110px;
 }
 
-.main-content-imgblock--right,
-.main-content-textblock--right{
+.main-content-img-block{
+    margin:0;
+    vertical-align:bottom;
+}
+
+.main-content-img-block__img{
+    width:720px;
+    height:504px;
+}
+
+.main-content-text-block{
+    width:300px;
+}
+
+/*各記事の画像とテキストの左右配置*/
+.main-content-img-block--left,
+.main-content-text-block--left{
+    float:left;
+    margin-right:40px;
+}
+
+.main-content-img-block--right,
+.main-content-text-block--right{
     float:right;
 }
 
-.main-content__item:after:{
+.main-content__item:after{
     content:"";
     display:block;
     clear:both;

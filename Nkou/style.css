@@ -803,6 +803,7 @@ a{
 
 .main-content-text-block__caption{
     font-size:22px;
+    margin-top:0;
 }
 
 .main-content-text-block__note-size11{
@@ -820,10 +821,12 @@ a{
     font-size:13px;
 }
 
+/*basicprogramとadvancedprogramのアイコン部分*/
 .main-content__prog{
     display:inline-block;
     background-color:#272727;
     padding:0 10px;
+    margin-bottom:25px;
 }
 
 .main-content__progimg{

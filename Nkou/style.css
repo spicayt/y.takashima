@@ -834,3 +834,63 @@ a{
     height:15px;
     vertical-align:middle;    
 }
+
+/*N高って？画像*/
+.aboutus{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.submenu-list{
+    display:flex;
+    flex-wrap:wrap;
+    align-content:apace-between;
+    padding-top:60px;
+    padding-bottom:60px;    
+}
+
+.submenu{
+    width:490px;
+    position: relative;
+    margin:15px 0 15px 0;
+    box-sizing: border-box;
+    background-image:url("images/main_images/bg_diagonal01_black01.png");
+    background-repeat:repeat;
+    padding:7px;
+}
+
+.submenu:nth-child(odd){
+    margin-right:60px;
+}
+
+.submenu__link-block{
+    height:100%; 
+    position:relative;
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding:0 40px 0 25px;
+}
+
+.submenu__link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.submenu__manuname{
+    font-size:25px;
+    margin:15px 0 0 0;
+}
+
+.submenu__text{
+    font-size:13px;
+    margin:0 0 15px 0;
+
+}

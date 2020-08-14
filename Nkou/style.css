@@ -1017,3 +1017,25 @@ a{
     left:40px;
 }
 
+.news-list-btnlist{
+    width:550px;
+    margin:0 auto 0 auto;
+    display:flex;
+    padding:40px 0 40px 0;
+
+}
+.news-list-btn__link{
+    display:inline-block;
+    border:solid 1px;
+    width:255px;
+    height:45px;
+    margin-right:35px;
+    color:#272727;
+    line-height:45px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.news-list-btn__link:last-child{
+    margin-right:0;
+}

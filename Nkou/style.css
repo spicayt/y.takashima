@@ -907,3 +907,113 @@ a{
     margin:0 0 10px 0;
 }
 
+/*info部分*/
+.info{
+    width:100%;
+    background-image:url("images/sub_images/sub02_bg01.png");
+    background-repeat:repeat;
+    color:#FFFFFF;
+    margin:0;
+    padding-top:25px;
+    padding-bottom:35px;
+}
+
+.info__title{
+    width:560px;
+    size:20px;
+    font-weight:400;
+    margin:0 auto 25px auto;
+    text-align:center;
+    letter-spacing:5px;
+}
+
+.info-contents{
+    display:flex;
+    width:560px;
+    margin:auto;
+}
+
+.info-btn-block{
+    margin-right:40px;
+}
+.info-btn__link{
+    font-size:18px;
+    display:block;
+    background-color:#FFFFFF;
+    color:#1c1c1c;
+    height:55px;
+    line-height:55px;
+    width:260px;
+    text-align: center;
+    margin-bottom:15px;
+    position:relative;
+    box-sizing:border-box;
+}
+
+.info-btn__link:after{
+    display:inline-block;
+    content:"";
+    height:12px;
+    width:12px;
+    background-image:url(images/common/icon_arrow01_right_black01.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: absolute;
+    top:40%;
+    right:10px;   
+}
+
+.info-btn__link:before{
+    content:"";
+    display:inline-block;
+    width:35px;
+    height:30px;
+    position:absolute;
+    left:15px;
+    top:20%;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.info-btn__link:first-child:before{
+    background-image:url(images/sub_images/icon_book01_black01.png);
+}
+
+.info-btn__link:last-child{
+    margin-bottom:0;
+}
+
+.info-btn__link:last-child:before{
+    background-image:url(images/sub_images/icon_balloon01_black01.png);
+}
+
+.info-callus{
+    position:relative;
+}
+
+.info-callus__num{
+    width:260px;
+    height:29px;
+}
+
+.info-callus__open{
+    font-size:12px;
+    line-height:1.41;
+    margin:0;
+    text-align:center;
+}
+
+.info-callus-__onlinelink{
+    display:inline-block;
+    border:solid 1px #FFFFFF;
+    font-size:13px;
+    color:#FFFFFF;
+    text-align:center;
+    line-height:40px;
+    width:215px;
+    height:40px;
+    position:absolute;
+    bottom:0;
+    left:40px;
+}
+

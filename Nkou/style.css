@@ -1117,3 +1117,28 @@ a{
     white-space: nowrap;
     overflow: hidden;
 }
+
+.sitemap{
+    padding-top:60px;
+}
+
+.sitemap-nav-bar{
+    width:1060px;
+    margin:0 auto 50px auto;
+    display:flex;
+}
+
+.sitmap-nav-bar__item{
+    font-size:16px;
+    line-height:1;
+    font-weight:700;
+    color:#000066;
+    margin-right:15px;
+    padding-right:15px;
+    border-right:solid 1px;
+}
+
+.sitmap-nav-bar__item:last-child{
+    border-right:none;
+}
+

@@ -1124,8 +1124,10 @@ a{
 
 .sitemap-nav-bar{
     width:1060px;
+    height:80px;
     margin:0 auto 50px auto;
     display:flex;
+    position: relative;
 }
 
 .sitmap-nav-bar__item{
@@ -1133,12 +1135,23 @@ a{
     line-height:1;
     font-weight:700;
     color:#000066;
-    margin-right:15px;
+    margin:auto 15px auto 0;
     padding-right:15px;
     border-right:solid 1px;
 }
 
-.sitmap-nav-bar__item:last-child{
+.sitmap-nav-bar__item:nth-child(6){
     border-right:none;
 }
 
+.gototoplink{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right:0;
+    background-image:url("images/sub_images/sub01_to_top01.png");
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}

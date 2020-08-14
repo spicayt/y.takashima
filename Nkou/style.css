@@ -1155,3 +1155,45 @@ a{
     white-space: nowrap;
     overflow: hidden;
 }
+
+.index-area{
+    width:1045px;
+    margin:auto;
+    display:flex;
+}
+
+.index-unit{
+    margin:0 15px 15px 0;
+    padding-top:15px;
+    border-top:solid 1px #e1e1e1;
+}
+
+.index-unit:first-child{
+    border-top:none;
+}
+
+.index-unit__title{
+    margin:0;
+    height:40px;
+    position:relative;
+}
+.index-unit__title-link{
+    font-size:16px;
+    font-weight:700;
+    position:absolute;
+    bottom:0;
+}
+
+.index-unit__list{
+    width:195px;
+    height:100%;
+    padding:0 25px 0 0;
+    box-sizing:border-box;
+    margin:0;
+}
+
+.index-unit__link{
+    font-size:14px;
+    font-weight:400;
+    color:#272727;
+}

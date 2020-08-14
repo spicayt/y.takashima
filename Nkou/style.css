@@ -718,6 +718,7 @@ a{
 
 .main-content{
     padding:85px 0 110px 0;
+    border-top:solid 1px #e1e1e1;
 }
 
 .main-content__title{
@@ -839,6 +840,11 @@ a{
 .aboutus{
     margin-top:100px;
     margin-bottom:100px;
+}
+
+.submenu-area{
+    border-top:solid 1px #e1e1e1;
+    margin-bottom:80px;
 }
 
 .submenu-list{
@@ -1038,4 +1044,9 @@ a{
 
 .news-list-btn__link:last-child{
     margin-right:0;
+}
+
+.school-list{
+    height:275px;
+    border-top:solid 1px #e1e1e1;
 }

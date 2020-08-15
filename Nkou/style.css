@@ -712,6 +712,14 @@ left:45%;
     overflow: hidden;
 }
 
+.about-ns:hover{
+    opacity:0.7;
+}
+
+.about-ns-text-block:hover{
+    opacity:1;
+}
+
 .intro-content-topic__caption{
     font-size:25px;
     margin:0;

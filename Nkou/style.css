@@ -1177,6 +1177,11 @@ left:45%;
     right:20px;   
 }
 
+.aliance-school__innerblock:hover{
+    opacity:0.6;
+    transition:all 0.2s;
+}
+
 .aliance-school__icon{
     margin:15px auto 0 auto;
     width:140px;
@@ -1276,6 +1281,17 @@ left:45%;
     font-size:14px;
     font-weight:400;
     color:#272727;
+}
+
+.sitmap-nav-bar__item:hover,
+.index-unit__title-link:hover,
+.index-unit__link:hover{
+    text-decoration-line: underline;
+}
+
+.gototoplink:hover{
+    opacity:0.7;
+    transition:all 0.2s;
 }
 
 /*フッター部分*/

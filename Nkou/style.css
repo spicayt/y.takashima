@@ -1053,6 +1053,12 @@ left:45%;
     text-align:center;
 }
 
+.info-btn__link:hover,
+.info-callus__link:hover{
+    opacity:0.7;
+    transition:all 0.2s;
+}
+
 .info-callus-__onlinelink{
     display:inline-block;
     border:solid 1px #FFFFFF;
@@ -1065,6 +1071,11 @@ left:45%;
     position:absolute;
     bottom:0;
     left:40px;
+}
+
+.info-callus-__onlinelink:hover{
+    text-decoration-line: underline;
+    transition:all 0.2s;
 }
 
 .news-list-btnlist{

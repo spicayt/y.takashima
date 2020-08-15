@@ -259,6 +259,16 @@ a{
 
 .global-navi__item:first-child{
     border-left:solid 1px #e1e1e1;
+    position: relative;
+}
+
+.global-navi__item:first-child:before{
+content:"\0025B2";
+color:#181836;
+font-size:12px;
+position: absolute;
+bottom:-30px;
+left:45%;
 }
 
 .global-navi__link{
@@ -361,11 +371,6 @@ a{
     height:90px;
 }
 
-.local-navi-area:before{
-    content:"";
-
-}
-
 .local-navi{
     display:flex;
     flex-wrap: wrap;
@@ -382,6 +387,7 @@ a{
     height:35px;
     padding:0;
     margin-left:20px;
+    position:relative;
 }
 
 /*斜めボーダー部分*/

@@ -881,6 +881,7 @@ left:45%;
     vertical-align: bottom;
 }
 
+/*submenu(2×2のリンク部分)*/
 .submenu-area{
     border-top:solid 1px #e1e1e1;
     margin-bottom:80px;
@@ -929,6 +930,10 @@ left:45%;
     position: absolute;
     top:50%;
     right:30px;   
+}
+
+.submenu__link-block:hover{
+    opacity:0.6;
 }
 
 .submenu__link{

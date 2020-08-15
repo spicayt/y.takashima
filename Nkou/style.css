@@ -214,13 +214,19 @@ a{
 
 .header-sns__icon{
     vertical-align: bottom;
-    margin-left:10px;
 }
 
 .header-sns__link{
     display:inline-block;
     vertical-align:bottom;
+    margin-left:10px;
 }
+
+.header-sns__link:hover{
+    transition:all 0.3s;
+    opacity:0.7;
+}
+
 
 /*ヘッダーグローバルナビ行*/
 .header-navi-area{
@@ -425,6 +431,7 @@ left:45%;
 .local-navi__link:hover{
     background-color:#ffffff;
     color:#1f286f;
+    transition:all 0.2s;
 }
 
 /*ページタイトル部分*/

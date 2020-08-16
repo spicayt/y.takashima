@@ -1416,3 +1416,7 @@ left:45%;
     font-size:11px;
     color:#676767;
 }
+
+.footer-gotohome-copyright__link:hover{
+    text-decoration-line: underline;
+}

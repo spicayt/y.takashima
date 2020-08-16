@@ -150,7 +150,9 @@ a{
 
 .header-top__title{
     margin:0;
+    font-size:11px;
     font-weight:700;
+    letter-spacing:0.1em;
 }
 
 .header-top__rightitem{
@@ -504,7 +506,7 @@ left:45%;
     font-weight:400;
     color:#ffffff;
     line-height:94px;
-    letter-spacing:0.42em;
+    letter-spacing:0.3em;
 }
 
 .page-title__text:after{
@@ -1022,7 +1024,7 @@ left:45%;
     font-weight:400;
     margin:0 auto 25px auto;
     text-align:center;
-    letter-spacing:5px;
+    letter-spacing:0.25em;
 }
 
 .info-contents{
@@ -1258,7 +1260,7 @@ left:45%;
 .sitemap-nav-bar{
     width:1060px;
     height:80px;
-    margin:0 auto 50px auto;
+    margin:0 auto 0 auto;
     display:flex;
     position: relative;
 }
@@ -1281,7 +1283,7 @@ left:45%;
     width:80px;
     height:80px;
     position: absolute;
-    right:0;
+    right:30px;
     background-image:url("images/sub_images/sub01_to_top01.png");
     background-size: contain;
     text-indent: 100%;

@@ -187,7 +187,7 @@ a{
 .header-top__login{
     margin:0;
     padding:5px 10px 5px;
-    font-weight:400px;
+    font-weight:400;
     background-color:#d9d9d9;
 }
 
@@ -938,7 +938,7 @@ left:45%;
 .submenu-list{
     display:flex;
     flex-wrap:wrap;
-    align-content:apace-between;
+    align-content:Space-between;
     padding-top:60px;
     padding-bottom:60px;    
 }
@@ -1018,7 +1018,7 @@ left:45%;
 
 .info__title{
     width:560px;
-    size:20px;
+    font-size:20px;
     font-weight:400;
     margin:0 auto 25px auto;
     text-align:center;

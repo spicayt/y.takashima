@@ -142,7 +142,7 @@ a{
     margin:0;
     padding:5px 10px 5px;
     font-weight:400px;
-    background-color:rgb(217,217,217);
+    background-color:#d9d9d9;
 }
 
 .header-top__loginlink{
@@ -151,6 +151,7 @@ a{
     line-height: 2em;
     padding-left:2em;   
 }
+
 
 .header-top__loginlink:before{
     position:absolute;
@@ -1322,6 +1323,10 @@ left:45%;
     color:inherit;
 }
 
+.footer-pr-corporate-link:hover{
+    text-decoration-line:underline;
+}
+
 .footer-sns-list{
     margin:0;
     padding:0;
@@ -1344,15 +1349,18 @@ left:45%;
     border-right:none;
 }
 
+
 .footer-sns__icon{
     width:28px;
     height:28px;
+    z-index:2;
 }
 
 .footer-sns__text{
     font-size:12px;
     line-height:1;
     margin-left:5px;
+    z-index:2;
 }
 
 .footer-sns__link{
@@ -1364,7 +1372,13 @@ left:45%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    z-index:2;
 }
+
+.footer-sns__link:hover{
+    background-color:#e1e1e1;
+    z-index:1;
+    }
 
 .footer-sns-list__item:after{
     content:">";

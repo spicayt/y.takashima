@@ -656,6 +656,8 @@ left:45%;
 
 .about-ns-img-block__img{
     vertical-align:bottom;
+    width:164px;
+    height:270px;
 }
 
 .about-ns-text-block{
@@ -713,12 +715,9 @@ left:45%;
     overflow: hidden;
 }
 
-.about-ns:hover{
+.about-ns:hover .about-ns-img-block__img,
+.about-ns:hover .about-ns-text-block__readmore{
     opacity:0.7;
-}
-
-.about-ns-text-block:hover{
-    opacity:1;
 }
 
 .intro-content-topic__caption{

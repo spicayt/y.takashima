@@ -35,6 +35,7 @@ body {
     color:#272727;
     background-color:#ffffff;
     margin:0;
+    position:relative;
 }
 
 .header-top,
@@ -89,6 +90,50 @@ a{
     width:1060px;
     margin:auto;
 }
+/*ヘッダー固定スクロール部分*/
+.fixed-area{
+    width:100%;
+    position:fixed;
+    z-index:1;
+    background-color:#ffffff;
+    opacity:0.9;
+}
+
+.fixed{
+    width:1040px;
+    height:60px;
+    margin:0 auto 0 auto;
+    padding-top:5px;
+    display:flex;
+}
+
+.fixed__nameimg{
+    width:170px;
+    height:36px;
+    margin-right:200px;
+}
+
+.fixed-phoneblock{
+    width:320px;
+    display:flex;
+    align-items:center;
+}
+.fixed-phoneblock__open{
+    font-size:11px;
+    color:#8d959c;
+}
+
+.fixed-phoneblock__num{
+    width:200px;
+    height:22px;
+    margin-right:10px;
+}
+/*ヘッダーの重なり指定*/
+#page-head{
+    position: relative;
+    z-index:2;
+    background-color:#ffffff;
+}
 
 /*ヘッダー部分*/
 
@@ -99,7 +144,8 @@ a{
     justify-content:space-between;
     align-items:center;
     font-size:11px;
-    line-height:1.36;         
+    line-height:1.36;
+    position: relative;         
 }
 
 .header-top__title{
@@ -170,6 +216,7 @@ a{
     text-decoration:underline solid;
 }
 
+
 /*ヘッダータイトル部分*/
 .site-title__name{
     width:211px;
@@ -182,6 +229,7 @@ a{
 }
 
 .header-contents{
+    width:1040px;
     margin:20px 0 20px;
     padding:0 16% 0;
     display:flex;
@@ -231,10 +279,10 @@ a{
 
 /*ヘッダーグローバルナビ行*/
 .header-navi-area{
-    padding:0 16% 0;
+    width:1040px;
     display:flex;
     align-items: center;
-    margin-bottom:20px;   
+    margin:0 auto 20px auto;  
 }
 
 /*グローバルナビ本体*/
@@ -326,8 +374,8 @@ left:45%;
 
 
 /*ボタン部分*/
-.header-navi-area-btnlist{
-    width:360px;
+.btnlist{
+    width:350px;
     display:flex;
     padding:0;
     flex-grow:1;
@@ -336,7 +384,7 @@ left:45%;
     margin:0;
 }
 
-.header-navi-area-btn{
+.btnlist-btn{
     font-size:15px;
     font-weight: 700;
     padding:0;
@@ -346,11 +394,11 @@ left:45%;
     margin-left:10px;
 }
 
-.header-navi-area-btn:first-child{
+.btnlist-btn:first-child{
     margin:0;
 }
 
-.header-navi-area-btn__link{
+.btnlist-btn__link{
     display:block;
     text-align: center;
     width:100%;
@@ -359,7 +407,7 @@ left:45%;
     position: relative;
 }
 
-.header-navi-area-btn__link:after{
+.btnlist-btn__link:after{
     content:'\f105';
 	font-family:'Font Awesome 5 Free';
     font-weight:900;
@@ -367,7 +415,7 @@ left:45%;
     right:10px;
 }
 
-.header-navi-area-btn__link:hover{
+.btnlist-btn__link:hover{
     background-color:#1f286f;
     color:#ffffff;
     transition:all 0.2s;

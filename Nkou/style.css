@@ -1,27 +1,27 @@
 /* フォントの読み込み*/
 
 /*@font-face {
-    font-family: "AxisStd-UltraLight";
-    src: url("https://nnn.ed.jp/assets/fonts/a9052c68-9f8f-4738-b7b3-28b7b4074c0e.eot?#iefix");
-    src: url("https://nnn.ed.jp/assets/fonts/a9052c68-9f8f-4738-b7b3-28b7b4074c0e.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/9debccc6-f756-4d46-a835-ac342ddbcaf0.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/726b29c5-dc24-49d5-a06e-107b62843f0b.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/fcf3fe94-ef76-4736-8626-e84ee1a9ba39.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/3d6f6af4-77aa-4896-b039-94e43492d9c6.svg#3d6f6af4-77aa-4896-b039-94e43492d9c6") format("svg");
+    font-family:"AxisStd-UltraLight";
+    src:url("https://nnn.ed.jp/assets/fonts/a9052c68-9f8f-4738-b7b3-28b7b4074c0e.eot?#iefix");
+    src:url("https://nnn.ed.jp/assets/fonts/a9052c68-9f8f-4738-b7b3-28b7b4074c0e.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/9debccc6-f756-4d46-a835-ac342ddbcaf0.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/726b29c5-dc24-49d5-a06e-107b62843f0b.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/fcf3fe94-ef76-4736-8626-e84ee1a9ba39.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/3d6f6af4-77aa-4896-b039-94e43492d9c6.svg#3d6f6af4-77aa-4896-b039-94e43492d9c6") format("svg");
 }
 
 @font-face {
-    font-family: "AxisStd-ExtraLight";
-    src: url("https://nnn.ed.jp/assets/fonts/cae76507-fde0-48d2-8060-f95b67662772.eot?#iefix");
-    src: url("https://nnn.ed.jp/assets/fonts/cae76507-fde0-48d2-8060-f95b67662772.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/9adc0413-55bd-4001-9bc0-f823476aa22e.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/25516da4-2e65-456a-bc9c-cc6960f6c384.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/8c439ac8-83ef-4635-a477-df9c64f97b62.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/93d1f11a-903e-4293-a2f1-cd55b87b5087.svg#93d1f11a-903e-4293-a2f1-cd55b87b5087") format("svg");
+    font-family:"AxisStd-ExtraLight";
+    src:url("https://nnn.ed.jp/assets/fonts/cae76507-fde0-48d2-8060-f95b67662772.eot?#iefix");
+    src:url("https://nnn.ed.jp/assets/fonts/cae76507-fde0-48d2-8060-f95b67662772.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/9adc0413-55bd-4001-9bc0-f823476aa22e.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/25516da4-2e65-456a-bc9c-cc6960f6c384.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/8c439ac8-83ef-4635-a477-df9c64f97b62.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/93d1f11a-903e-4293-a2f1-cd55b87b5087.svg#93d1f11a-903e-4293-a2f1-cd55b87b5087") format("svg");
 }
 
 @font-face {
-    font-family: "AxisStd-Light";
-    src: url("https://nnn.ed.jp/assets/fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix");
-    src: url("https://nnn.ed.jp/assets/fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/ca94208f-21dd-4dc8-ab7c-057d8dbfcccb.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/18820f9e-d51e-43be-9d0f-e510d9d1878a.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/cb3a3886-7dec-420d-bf42-698737ce3561.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/9bdde1f9-7637-4fa1-994d-2f2ad4929b1f.svg#9bdde1f9-7637-4fa1-994d-2f2ad4929b1f") format("svg");
+    font-family:"AxisStd-Light";
+    src:url("https://nnn.ed.jp/assets/fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix");
+    src:url("https://nnn.ed.jp/assets/fonts/aa7c9f5f-bd2d-4fbb-a4a5-82ba2cd0189c.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/ca94208f-21dd-4dc8-ab7c-057d8dbfcccb.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/18820f9e-d51e-43be-9d0f-e510d9d1878a.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/cb3a3886-7dec-420d-bf42-698737ce3561.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/9bdde1f9-7637-4fa1-994d-2f2ad4929b1f.svg#9bdde1f9-7637-4fa1-994d-2f2ad4929b1f") format("svg");
 }
 
 @font-face {
-    font-family: "AxisStd-Regular";
-    src: url("https://nnn.ed.jp/assets/fonts/7e908add-1f72-4926-8e0d-33613fad3a87.eot?#iefix");
-    src: url("https://nnn.ed.jp/assets/fonts/7e908add-1f72-4926-8e0d-33613fad3a87.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/d226afef-6536-4b18-9b28-defffcc4baae.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/6e9eb620-9339-4b2e-bb9b-d514def96de7.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/a71ba532-858c-440c-8abd-e89a2ae8efea.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/5d948218-1de1-4508-b1a6-fe03ccced886.svg#5d948218-1de1-4508-b1a6-fe03ccced886") format("svg");
+    font-family:"AxisStd-Regular";
+    src:url("https://nnn.ed.jp/assets/fonts/7e908add-1f72-4926-8e0d-33613fad3a87.eot?#iefix");
+    src:url("https://nnn.ed.jp/assets/fonts/7e908add-1f72-4926-8e0d-33613fad3a87.eot?#iefix") format("eot"), url("https://nnn.ed.jp/assets/fonts/d226afef-6536-4b18-9b28-defffcc4baae.woff2") format("woff2"), url("https://nnn.ed.jp/assets/fonts/6e9eb620-9339-4b2e-bb9b-d514def96de7.woff") format("woff"), url("https://nnn.ed.jp/assets/fonts/a71ba532-858c-440c-8abd-e89a2ae8efea.ttf") format("truetype"), url("https://nnn.ed.jp/assets/fonts/5d948218-1de1-4508-b1a6-fe03ccced886.svg#5d948218-1de1-4508-b1a6-fe03ccced886") format("svg");
 }*/
 
 @font-face {
@@ -67,7 +67,7 @@ body {
 
 /*リストの見出しリセット*/
 ul li{
-    list-style-type: none;
+    list-style-type:none;
 }
 
 /*アンカーテキストのフォントリセット*/
@@ -217,7 +217,7 @@ a{
     height:2em;
     width:2em;
     background:url(images/header_images/icon_site_mark01.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size:contain;     
 }
 
@@ -231,7 +231,7 @@ a{
 .site-title__name{
     width:211px;
     height:45px;
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 .site-title__link{
@@ -252,11 +252,11 @@ a{
 }
 .header-callus{
     margin-right:40px;
-    vertical-align: top;
+    vertical-align:top;
 }
 
 .header-callus__num{
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 .header-callus__open{
@@ -290,7 +290,7 @@ a{
 /*ヘッダーグローバルナビ行*/
 .header-navi-area{
     display:flex;
-    align-items: center;
+    align-items:center;
     width:1040px;
     margin:0 auto 20px auto;
 }
@@ -324,14 +324,14 @@ a{
 
 .global-navi__item:first-child{
     border-left:solid 1px #e1e1e1;
-    position: relative;
+    position:relative;
 }
 
 .global-navi__item:first-child:before{
 content:"\0025B2";
 color:#181836;
 font-size:12px;
-position: absolute;
+position:absolute;
 bottom:-30px;
 left:45%;
 }
@@ -344,24 +344,24 @@ left:45%;
 
 .global-navi__ruby{
     display:inline-block;
-    overflow: hidden;
+    overflow:hidden;
     background-position:top center;
     background-repeat:no-repeat;
     width:100px;
     height:10px;
-    text-indent: 100%;
+    text-indent:100%;
 }
 
 .global-navi__ruby--about,
 .global-navi__ruby:hover{
     display:inline-block;
-    overflow: hidden;
+    overflow:hidden;
     background-position:bottom center;
     background-repeat:no-repeat;
     width:100px;
     height:10px;
     color:#1f286f;
-    text-indent: 100%;
+    text-indent:100%;
    }
 
 /*画像は個別に別途指定*/
@@ -387,8 +387,8 @@ left:45%;
 .btnlist{
     display:flex;
     flex-grow:1;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     width:350px;
     margin:0;
     padding:0;
@@ -396,7 +396,7 @@ left:45%;
 
 .btnlist-btn{
     font-size:15px;
-    font-weight: 700;
+    font-weight:700;
     margin-left:10px;
     padding:0;
     border:solid 1px;
@@ -409,11 +409,11 @@ left:45%;
 }
 
 .btnlist-btn__link{
-    position: relative;
+    position:relative;
     display:block;
     width:100%;
     height:100%;
-    text-align: center;
+    text-align:center;
     line-height:40px;
 }
 
@@ -421,7 +421,7 @@ left:45%;
     content:'\f105';
 	font-family:'Font Awesome 5 Free';
     font-weight:900;
-    position: absolute;
+    position:absolute;
     right:10px;
 }
 
@@ -438,8 +438,8 @@ left:45%;
 
 .local-navi{
     display:flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-wrap:wrap;
+    align-items:center;
     justify-content:center;
     height:inherit;
     padding:5px 0;
@@ -449,7 +449,7 @@ left:45%;
 .local-navi__item{
     position:relative;
     display:flex;
-    align-items: center;
+    align-items:center;
     height:35px;
     margin-left:20px;
     padding:0;
@@ -481,7 +481,7 @@ left:45%;
 .local-navi__link{
     display:inline-block;
     color:#ffffff;
-    font-size: 14px;
+    font-size:14px;
     line-height:40px;
     height:inherit;
     padding:0 5px;
@@ -497,7 +497,7 @@ left:45%;
 .page-title{
     width:100%;
     height:530px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding-top:55px;
     background-image:url(images/title_images/about_mainimage01.jpg);
     background-position:center;
@@ -513,14 +513,14 @@ left:45%;
     line-height:94px;
     letter-spacing:0.3em;
     margin:0 0 30px;
-    position: relative;
+    position:relative;
     text-align:center;
 }
 
 .page-title__text:after{
     content:"";
     width:200px;
-    position: absolute;
+    position:absolute;
     bottom:0;
     left:43.5%;
     border-bottom:solid 1px #ffffff;
@@ -561,7 +561,7 @@ left:45%;
 .topic-path__item--current::before{
     content:"＞";
     font-size:10px;
-    position: absolute;
+    position:absolute;
     left:0;
     top:15%;
 }
@@ -586,7 +586,7 @@ left:45%;
     color:#272727;
     font-size:33px;
     font-weight:400;
-    text-align: center;
+    text-align:center;
     letter-spacing:0.3em;
     margin-top:80px;
     margin-bottom:80px;
@@ -608,7 +608,7 @@ left:45%;
     border-bottom:solid 1px;
     width:200px;
     height:1px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     bottom:0;
     left:215px;
 }
@@ -642,7 +642,7 @@ left:45%;
     border-bottom:solid 2px;
     width:280px;
     height:3px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     bottom:-1px;
     left:0;    
 }
@@ -741,7 +741,7 @@ left:45%;
 }
 
 .readmore{
-    position: relative;
+    position:relative;
 }
 
 .readmore:before{
@@ -763,14 +763,14 @@ left:45%;
 }
 
 .about-ns__link{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
     top:0;
-    left: 0;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    left:0;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .about-ns:hover .about-ns-img-block__img,
@@ -848,7 +848,7 @@ left:45%;
 
 .main-content-text-block{
     width:280px;
-    position: relative;
+    position:relative;
 }
 
 .main-content-text-block:hover{
@@ -856,14 +856,14 @@ left:45%;
 }
 
 .main-content-text-block__link{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
     top:0;
-    left: 0;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    left:0;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 /*各記事の画像とテキストの左右配置*/
@@ -936,7 +936,7 @@ left:45%;
 }
 
 .aboutus__img{
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 /*submenu(2×2のリンク部分)*/
@@ -954,8 +954,8 @@ left:45%;
 }
 
 .submenu{
-    position: relative;
-    box-sizing: border-box;
+    position:relative;
+    box-sizing:border-box;
     width:490px;
     margin:15px 0 15px 0;
     background-image:url("images/main_images/bg_diagonal01_black01.png");
@@ -970,7 +970,7 @@ left:45%;
 .submenu__link-block{
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     position:relative;
     background-color:#FFFFFF;
     height:100%; 
@@ -979,7 +979,7 @@ left:45%;
 
 .submenu__link-block:after{
     content:"";
-    position: absolute;
+    position:absolute;
     display:inline-block;
     height:10px;
     width:10px;
@@ -995,14 +995,14 @@ left:45%;
 }
 
 .submenu__link{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position:absolute;
+    width:100%;
+    height:100%;
     top:0;
     left:0;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .submenu__manuname{
@@ -1051,7 +1051,7 @@ left:45%;
     font-size:18px;
     background-color:#FFFFFF;
     color:#1c1c1c;
-    text-align: center;
+    text-align:center;
     height:55px;
     width:260px;
     line-height:55px;
@@ -1061,7 +1061,7 @@ left:45%;
 .info-btn__link:after{
     content:"";
     display:inline-block;
-    position: absolute;
+    position:absolute;
     top:40%;
     right:10px;   
     height:12px;
@@ -1080,7 +1080,7 @@ left:45%;
     width:35px;
     height:30px;
     background-size:contain;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 
 .info-btn__link:first-child:before{
@@ -1133,14 +1133,14 @@ left:45%;
 
 .info-callus__onlinelink:after{
     content:'\f105';
-    position: absolute;
+    position:absolute;
     right:10px;
 	font-family:'Font Awesome 5 Free';
     font-weight:900;
 }
 
 .info-callus__onlinelink:hover{
-    text-decoration-line: underline;
+    text-decoration-line:underline;
         transition:all 0.2s;
 }
 
@@ -1152,7 +1152,7 @@ left:45%;
 
 }
 .news-list-btn__link{
-    position: relative;
+    position:relative;
     display:inline-block;
     box-sizing:border-box;
     font-size:14px;
@@ -1172,7 +1172,7 @@ left:45%;
 
 .news-list-btn__link:after{
     content:'\f105';
-    position: absolute;
+    position:absolute;
     right:10px;
 	font-family:'Font Awesome 5 Free';
     font-weight:900;
@@ -1215,7 +1215,7 @@ left:45%;
     position:relative;
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     height:-webkit-calc(100% - 14px); 
     width:-webkit-calc(100% - 14px);
     margin:7px;
@@ -1225,7 +1225,7 @@ left:45%;
 .aliance-school__innerblock:after{   
     content:"";
     display:inline-block;
-    position: absolute;
+    position:absolute;
     top:45%;
     right:20px;
     height:10px;
@@ -1251,14 +1251,14 @@ left:45%;
 }
 
 .aliance-school__link{
-    position: absolute;
+    position:absolute;
     top:0;
     left:0;
-    width: 100%;
-    height: 100%;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    width:100%;
+    height:100%;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .sitemap{
@@ -1266,7 +1266,7 @@ left:45%;
 }
 
 .sitemap-nav-bar{
-    position: relative;
+    position:relative;
     display:flex;
     width:1060px;
     height:80px;
@@ -1288,15 +1288,15 @@ left:45%;
 }
 
 .gototoplink{
-    position: absolute;
+    position:absolute;
     right:30px;
     width:80px;
     height:80px;
     background-image:url("images/sub_images/sub01_to_top01.png");
-    background-size: contain;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    background-size:contain;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .index-area{
@@ -1344,7 +1344,7 @@ left:45%;
 .sitmap-nav-bar__item:hover,
 .index-unit__title-link:hover,
 .index-unit__link:hover{
-    text-decoration-line: underline;
+    text-decoration-line:underline;
 }
 
 .gototoplink:hover{
@@ -1366,7 +1366,7 @@ left:45%;
 
 .footer-pr-corporate-list{
     display:flex;
-    align-items: center;
+    align-items:center;
     padding:0;
 }
 
@@ -1386,16 +1386,16 @@ left:45%;
 
 .footer-sns-list{
     display:flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between;
     margin:0;
     padding:0;
 }
 
 .footer-sns-list__item{
-    position: relative;
+    position:relative;
     display:flex;
-    align-items: center;
+    align-items:center;
     border-right:solid 1px #e1e1e1;
     color:#676767;
     margin-right:5px;
@@ -1418,14 +1418,14 @@ left:45%;
 }
 
 .footer-sns__link{
-    position: absolute;
+    position:absolute;
     top:0;
     left:0;
-    width: 100%;
-    height: 100%;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
+    width:100%;
+    height:100%;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .footer-sns-list__item:after{
@@ -1434,11 +1434,11 @@ left:45%;
     line-height:1;
     right:5px;
     top:40%;
-    color: #aaa;
+    color:#aaa;
 }
 
 .footer-sns-list__item:hover{
-    background-color: #e6e4e4;
+    background-color:#e6e4e4;
 }
 
 .footer-gotohome-copyright-bar{
@@ -1449,7 +1449,7 @@ left:45%;
 
 .footer-gotohome-copyright-list{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     width:1040px;
     height:100%;
     margin:auto;
@@ -1471,5 +1471,5 @@ left:45%;
 }
 
 .footer-gotohome-copyright__link:hover{
-    text-decoration-line: underline;
+    text-decoration-line:underline;
 }

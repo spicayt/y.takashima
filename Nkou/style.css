@@ -328,12 +328,12 @@ a{
 }
 
 .global-navi__item:first-child:before{
-content:"\0025B2";
-color:#181836;
-font-size:12px;
-position:absolute;
-bottom:-30px;
-left:45%;
+    content:"\0025B2";
+    color:#181836;
+    font-size:12px;
+    position:absolute;
+    bottom:-30px;
+    left:45%;
 }
 
 .global-navi__link{
@@ -1141,7 +1141,7 @@ left:45%;
 
 .info-callus__onlinelink:hover{
     text-decoration-line:underline;
-        transition:all 0.2s;
+    transition:all 0.2s;
 }
 
 .news-list-btnlist{

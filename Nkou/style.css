@@ -415,6 +415,7 @@ a{
     height:100%;
     text-align:center;
     line-height:40px;
+    color:#1f286f;
 }
 
 .btnlist-btn__link:after{
@@ -1325,6 +1326,7 @@ a{
     bottom:0;
     font-size:16px;
     font-weight:700;
+    color:#1f286f;
 }
 
 .index-unit__list{

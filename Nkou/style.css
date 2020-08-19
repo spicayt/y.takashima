@@ -353,7 +353,7 @@ a{
 }
 
 .global-navi__ruby--about,
-.global-navi__ruby:hover{
+.global-navi__link:hover .global-navi__ruby{
     display:inline-block;
     overflow:hidden;
     background-position:bottom center;
